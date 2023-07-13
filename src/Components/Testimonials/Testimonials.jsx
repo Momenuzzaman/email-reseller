@@ -1,6 +1,7 @@
 import React from "react";
 import CarouselCard from "./CarouselCard";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
+import "../../CustomFont.css";
 const Testimonials = () => {
   // button
   const scrollLeft = () => {
@@ -20,11 +21,13 @@ const Testimonials = () => {
                 backgroundColor: "rgba(255, 72, 0, 0.03)",
                 border: " 1px solid rgba(255, 72, 0, 0.07)",
               }}
-              className="w-[200px]  lg:mx-0 text-center text-[#FF4800] uppercase font-semibold py-3 px-[16px] rounded-full"
+              className="w-[200px]  lg:mx-0 text-center text-[#FF4800] uppercase font-Montserrat font-semibold py-3 px-[16px] rounded-full"
             >
               Testimonials
             </p>
-            <p className="text-4xl font-semibold">Frequently Asked Questions</p>
+            <p className="text-4xl font-NekstBold ">
+              Frequently Asked Questions
+            </p>
           </div>
         </div>
         <div className="md:absolute right-0 top-5 ">

@@ -2,6 +2,8 @@ import React from "react";
 import profileImg from "../../../src/assets/image.png";
 import twitterImg from "../../../src/assets/Frame 1000011231.png";
 import facebook from "../../../src/assets/Frame 1000011232.png";
+import "../../CustomFont.css";
+
 // rating
 import { Rating } from "@smastrom/react-rating";
 
@@ -26,8 +28,8 @@ const CarouselCard = () => {
             className="flex w-full md:w-4/5 justify-between mx-auto  p-2"
           >
             <div className="space-y-3">
-              <p className="text-2xl font-semibold">Jonathon McCoy</p>
-              <p>UX Designer</p>
+              <p className="text-2xl font-NekstSemiBold ">Jonathon McCoy</p>
+              <p className="font-Montserrat">UX Designer</p>
             </div>
             <div className="space-y-3  ">
               <img src={twitterImg} />
@@ -35,7 +37,7 @@ const CarouselCard = () => {
             </div>
           </div>
         </div>
-        <p className="pt-[40px] mb-[40px]">
+        <p className="pt-[40px] mb-[40px] font-Montserrat">
           Lorem ipsum dolor sit amet consectetur. Enim auctor senectus nisl
           facilisis tristique aliquet porttitor amet eu. Quisque in pulvinar
           dignissim velit nulla ipsum tortor id quis. Pellentesque orci

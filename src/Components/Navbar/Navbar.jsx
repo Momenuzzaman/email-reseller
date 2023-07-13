@@ -40,7 +40,7 @@ const Navbar = () => {
               />
             </svg>
           </label>
-          <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52   ">
+          <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52  font-Montserrat ">
             {navItems}
             <div className=" flex flex-col space-y-1">
               <a className="btn">
@@ -58,7 +58,9 @@ const Navbar = () => {
         </a>
       </div>
       <div className="navbar-center hidden lg:flex justify-between w-2/3">
-        <ul className="menu menu-horizontal text-[18px] ">{navItems}</ul>
+        <ul className="menu menu-horizontal text-[18px] font-Montserrat">
+          {navItems}
+        </ul>
         <ul className="lg:flex justify-between space-x-2">
           <li>
             <a className="btn bg-transparent border-none text-black hover:text-black text-[18px]">

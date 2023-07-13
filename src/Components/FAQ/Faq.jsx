@@ -1,5 +1,6 @@
 import React from "react";
 import faqImg from "../../../src/assets/Rectangle 241faq.png";
+import "../../CustomFont.css";
 const Faq = () => {
   const askData = [
     {
@@ -41,20 +42,20 @@ const Faq = () => {
             backgroundColor: "rgba(255, 72, 0, 0.03)",
             border: " 1px solid rgba(255, 72, 0, 0.07)",
           }}
-          className="w-[100px] text-center text-[#FF4800] uppercase font-semibold py-3 px-[6px] rounded-full"
+          className="w-[100px] text-center text-[#FF4800] uppercase font-semibold py-3 px-[6px] rounded-full font-Montserrat"
         >
           FAQ
         </p>
-        <h3 className="text-[32px] mb-[50px] font-bold">
+        <h3 className="font-NekstBold text-[32px] mb-[50px] ">
           Frequently Asked Questions
         </h3>
         {askData.map((data) => (
           <div key={data.id} className="collapse collapse-arrow bg-base-200">
             <input type="radio" name="my-accordion-2" />
-            <div className="collapse-title text-xl font-medium">
+            <div className="collapse-title text-xl font-NekstMedium">
               {data?.title}
             </div>
-            <div className="collapse-content">
+            <div className="collapse-content font-Montserrat">
               <p>{data?.description}</p>
             </div>
           </div>
@@ -62,7 +63,7 @@ const Faq = () => {
       </div>
       <div className="md:w-1/2 mx-auto md:ml-[100px]">
         <div className="">
-          <p className="pb-[50px]">
+          <p className="pb-[50px] font-Montserrat">
             We're here to help with any questions you have about plans, pricing,
             and supported features.
           </p>

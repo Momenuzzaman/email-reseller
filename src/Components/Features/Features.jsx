@@ -1,6 +1,6 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
-
+import "../../CustomFont.css";
 const Features = () => {
   const featuresData = [
     {
@@ -67,12 +67,12 @@ const Features = () => {
               backgroundColor: "rgba(255, 72, 0, 0.03)",
               border: " 1px solid rgba(255, 72, 0, 0.07)",
             }}
-            className="w-[100px] mx-auto text-[#FF4800] uppercase text-center font-semibold py-3 px-[6px] rounded-full"
+            className="w-[100px] mx-auto text-[#FF4800] uppercase text-center font-semibold py-3 px-[6px] rounded-full font-Montserrat"
           >
             features
           </p>
           <h4
-            className="font-bold text-4xl mt-2
+            className="font-NekstBold text-4xl mt-2
           pb-[52px]"
           >
             The features and options are numerous
